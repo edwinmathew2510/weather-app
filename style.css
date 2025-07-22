@@ -72,6 +72,7 @@ button:hover {
     white-space: nowrap;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 10px;
 }
 
 .hourly-item {
@@ -91,7 +92,7 @@ button:hover {
 }
 
 #hourly-heading {
-    color: #fff;
+    color: #ffffff;
     margin-top: 10px;
 }
 
@@ -100,6 +101,7 @@ button:hover {
         height: auto;
         min-height: 100vh;
         padding: 5px;
+        padding-bottom: 12px;
         flex-direction: column;
     }
     #weather-container {
@@ -142,6 +144,7 @@ button:hover {
     #hourly-forecast {
         margin-top: 18px;
         gap: 4px;
+        padding-bottom: 12px;
     }
 
     .hourly-item {
