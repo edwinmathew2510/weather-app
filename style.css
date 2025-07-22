@@ -102,15 +102,18 @@ button:hover {
         padding: 5px;
         flex-direction: column;
     }
-
     #weather-container {
         max-width: 80%;
         padding: 6px;
         border-radius: 8px;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
     }
+    h2{
+        font-size: 1.2rem;
+        margin: 6px 0;
+    }
 
-    h2, label, p {
+     label, p {
         font-size: 0.9rem;
         margin: 6px 0;
     }
